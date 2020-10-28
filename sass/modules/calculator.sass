@@ -1,0 +1,36 @@
+div#calculator
+  display: grid
+  grid-template-columns: repeat(4, 3.5rem)
+  grid-template-rows: repeat(5, 3.5rem)
+  gap: 1rem
+  width: 100%
+
+  button
+    cursor: pointer
+    font-size: 1.5rem
+    background-color: rgba(0,0,0,0)
+
+    border: none
+    border-radius: 50%
+    box-shadow: -3px -3px 5px #fff, 3px 3px 5px #ddd
+
+    outline: none
+
+    &:hover
+      box-shadow: inset -5px -5px 5px #fff, inset 5px 5px 5px #ddd
+
+  button.operation
+    color: $YELLOW
+    font-weight: bolder
+
+    i.fa-backspace
+      color: $YELLOW
+
+  button.number
+    color: $BLACK
+
+  button.add
+    grid-row-start: 4
+    grid-row-end: 6
+    grid-column-start: 4
+    border-radius: 50px

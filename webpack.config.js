@@ -9,7 +9,7 @@ module.exports = {
         filename: 'app.js'
     },
     devServer: {
-        port: 3030
+        port: 3030,
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -23,6 +23,7 @@ module.exports = {
         rules: [
             { 
                 test: /\.sass$/,
+                exclude: /node_modules/,
                 use: [
                     { loader: 'style-loader' },
                     { loader: 'css-loader' },

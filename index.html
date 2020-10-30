@@ -8,35 +8,35 @@
   <body>
     <div class="container">
       <h1 class="title">Calculator</h1>
-      <div id="result">
-        <p id="result-final">16.000</p>
-        <p id="result-helper">2x2x20x200</p>
+      <div id="displays">
+        <p id="display-primary"></p>
+        <p id="display-secondary"></p>
       </div>
       <div id="calculator" class="calculator">
-        <button class="operation">C</button>
-        <button class="operation"><i class="fas fa-backspace"></i></button>
-        <button class="operation">/</button>
-        <button class="operation">X</button>
+        <button id="delete-all" class="operation">C</button>
+        <button id="delete-last-digit" class="operation"><i class="fas fa-backspace"></i></button>
+        <button class="operation printable">/</button>
+        <button class="operation printable">x</button>
         
-        <button class="number">7</button>
-        <button class="number">8</button>
-        <button class="number">9</button>
-        <button class="operation">-</button>
+        <button class="number printable">7</button>
+        <button class="number printable">8</button>
+        <button class="number printable">9</button>
+        <button class="operation printable">-</button>
 
-        <button class="number">4</button>
-        <button class="number">5</button>
-        <button class="number">6</button>
-        <button class="operation">+</button>
+        <button class="number printable">4</button>
+        <button class="number printable">5</button>
+        <button class="number printable">6</button>
+        <button class="operation printable">+</button>
 
-        <button class="number">1</button>
-        <button class="number">2</button>
-        <button class="number">3</button>
+        <button class="number printable">1</button>
+        <button class="number printable">2</button>
+        <button class="number printable">3</button>
 
-        <button class="add operation">=</button>
+        <button id="calc-result" class="operation">=</button>
 
-        <button class="operation">%</button>
-        <button class="number">0</button>
-        <button class="number">.</button>
+        <button class="operation printable">%</button>
+        <button class="number printable">0</button>
+        <button class="number printable">.</button>
       </div>
     </div> 
   </body>

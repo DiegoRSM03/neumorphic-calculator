@@ -20,3 +20,4 @@ como usar de una forma mas explícita el polimorfismo.
 - Sass como preprocesador de CSS, por gusto unicamente.
 - Patrones de diseño y Programación Orientada a Objetos
 
+![Imagen de la calculadora](./calculator-pic.png)
